@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Facebook Data Deletion Instructions for [APP_NAME]. Learn how to remove your Facebook data and delete your [APP_NAME] account.">
+<title>Facebook Data Deletion Instructions | [APP_NAME]</title>
+<style>
+  :root {
+    --c-text: #1f2937;
+    --c-muted: #6b7280;
+    --c-border: #e5e7eb;
+    --c-bg: #ffffff;
+    --c-accent: #2563eb;
+    --c-code-bg: #f3f4f6;
+    --c-tip-bg: #eff6ff;
+    --c-tip-border: #bfdbfe;
+    --c-warn-bg: #fef3c7;
+    --c-warn-border: #fcd34d;
+    --c-success-bg: #dcfce7;
+    --c-success-border: #86efac;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei", Roboto, "Helvetica Neue",
+      Arial, sans-serif;
+    color: var(--c-text);
+    background: var(--c-bg);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  header {
+    border-bottom: 1px solid var(--c-border);
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    font-weight: 700;
+  }
+  .meta {
+    color: var(--c-muted);
+    font-size: 14px;
+    margin: 0;
+  }
+  .lang-section {
+    margin-bottom: 64px;
+    padding-bottom: 32px;
+    border-bottom: 2px dashed var(--c-border);
+  }
+  .lang-section:last-of-type {
+    border-bottom: none;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 32px 0 12px;
+    font-weight: 600;
+    border-left: 4px solid var(--c-accent);
+    padding-left: 12px;
+  }
+  h3 {
+    font-size: 16px;
+    margin: 20px 0 8px;
+    font-weight: 600;
+  }
+  p, ul, ol {
+    margin: 0 0 14px;
+  }
+  ul, ol {
+    padding-left: 24px;
+  }
+  li {
+    margin-bottom: 6px;
+  }
+  a {
+    color: var(--c-accent);
+    text-decoration: none;
+    word-break: break-all;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  code {
+    background: var(--c-code-bg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: SFMono-Regular, Consolas, Menlo, monospace;
+  }
+  .steps {
+    background: var(--c-tip-bg);
+    border: 1px solid var(--c-tip-border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 12px 0;
+  }
+  .steps strong {
+    color: var(--c-accent);
+  }
+  .success {
+    background: var(--c-success-bg);
+    border: 1px solid var(--c-success-border);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: 16px 0;
+  }
+  .warn {
+    background: var(--c-warn-bg);
+    border: 1px solid var(--c-warn-border);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 15px;
+  }
+  footer {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid var(--c-border);
+    color: var(--c-muted);
+    font-size: 14px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    .container { padding: 32px 16px 64px; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Facebook Data Deletion Instructions</h1>
+    <p class="meta">[APP_NAME] &middot; Last updated: [LAST_UPDATED]</p>
+  </header>
+
+  <!-- ========== English ========== -->
+  <section class="lang-section" id="en">
+
+    <p>According to the Facebook Platform rules, every app must provide a User Data Deletion Callback URL or a Data Deletion Instructions URL. [APP_NAME] has chosen to provide the following Data Deletion Instructions for users who logged in to [APP_NAME] using their Facebook account.</p>
+
+    <p>If you would like [APP_NAME] to delete your account and all data associated with it, please follow the steps below.</p>
+
+    <h2>Option 1: Remove [APP_NAME] from your Facebook Account</h2>
+
+    <p>This option revokes [APP_NAME]'s permission to access your Facebook profile. It does <strong>not</strong> delete the data already stored in [APP_NAME] — for that, see Option 2.</p>
+
+    <div class="steps">
+      <strong>Steps to remove [APP_NAME] from Facebook:</strong>
+      <ol>
+        <li>Go to your Facebook <strong>Settings &amp; Privacy</strong> &rarr; <strong>Settings</strong>.</li>
+        <li>Click <strong>Apps and Websites</strong> in the left menu, or open this direct link: <a href="https://www.facebook.com/settings?tab=applications" target="_blank" rel="noopener">https://www.facebook.com/settings?tab=applications</a></li>
+        <li>Find <strong>[APP_NAME]</strong> in the list of active apps.</li>
+        <li>Select [APP_NAME] and click the <strong>Remove</strong> button.</li>
+      </ol>
+    </div>
+
+    <div class="success">
+      <strong>Done.</strong> [APP_NAME] will no longer be able to access your Facebook profile, and Facebook will no longer share new data with [APP_NAME].
+    </div>
+
+    <h2>Option 2: Delete your [APP_NAME] account and all stored data</h2>
+
+    <p>To permanently delete your [APP_NAME] account along with all data associated with it (account information, learning records, uploaded recordings, etc.), please follow the steps below from inside the [APP_NAME] app:</p>
+
+    <div class="steps">
+      <strong>Steps to delete your [APP_NAME] account:</strong>
+      <ol>
+        <li>Open the [APP_NAME] app and make sure you are logged in to the account you wish to delete.</li>
+        <li>Tap the <strong>Profile</strong> tab at the bottom navigation bar.</li>
+        <li>Tap <strong>Settings</strong>.</li>
+        <li>Scroll to the bottom and tap <strong>Delete Account</strong>.</li>
+        <li>Complete the verification step (re-enter password or confirm via your third-party login).</li>
+        <li>Confirm deletion.</li>
+      </ol>
+    </div>
+
+    <p>If you have already uninstalled the [APP_NAME] app, please reinstall it from the App Store or Google Play, sign in with your original account, and then follow the steps above. This is the only path we accept for deletion in order to verify your identity securely.</p>
+
+    <h2>What data will be deleted</h2>
+
+    <ul>
+      <li>Account information (nickname, avatar, email, hashed password).</li>
+      <li>Third-party login bindings (Apple / Google / Facebook user IDs and email mappings).</li>
+      <li>Learning data (learning history, quiz results, vocabulary, review schedule).</li>
+      <li>User-uploaded content (pronunciation evaluation recordings, profile pictures).</li>
+      <li>User feedback and support correspondence.</li>
+      <li>Device bindings and login sessions.</li>
+    </ul>
+
+    <h2>Processing time</h2>
+
+    <p>Your deletion request will be processed within <strong>7 business days</strong>. After processing, your data is removed from our production database, and any backup copies are purged within the regular backup rotation cycle (no later than 30 days).</p>
+
+    <p>A small amount of data may be retained beyond this period when required by law (such as transaction records or anonymized security audit logs).</p>
+
+    <h2>Need help?</h2>
+
+    <p>If you have trouble following the steps above (for example, you cannot log in to your original account, or you cannot find the Delete Account entry inside the app), please contact us:</p>
+
+    <ul>
+      <li>Email: <a href="mailto:[CONTACT_EMAIL]">[CONTACT_EMAIL]</a></li>
+    </ul>
+
+    <p>For more information about how [APP_NAME] handles your data, please refer to our <a href="./privacy.html">Privacy Policy</a>.</p>
+
+  </section>
+
+  <!-- ========== 中文 ========== -->
+  <section class="lang-section" id="zh">
+
+    <h1 style="border:none; padding:0; margin-bottom:8px;">Facebook 用户数据删除说明</h1>
+    <p class="meta">[APP_NAME] &middot; 最后更新：[LAST_UPDATED]</p>
+
+    <p>根据 Facebook 平台规则，每一个应用都必须提供「用户数据删除回调网址」或「数据删除说明网址」。[APP_NAME] 选择以本页面作为「数据删除说明网址」，向所有使用 Facebook 账号登录 [APP_NAME] 的用户提供以下删除说明。</p>
+
+    <p>如果你希望 [APP_NAME] 删除你的账户以及与之关联的所有数据，请按下方步骤操作。</p>
+
+    <h2>方式一：在 Facebook 侧移除 [APP_NAME] 的授权</h2>
+
+    <p>此操作会撤销 [APP_NAME] 访问你 Facebook 资料的权限，但<strong>不会</strong>删除 [APP_NAME] 已经存储的数据。如需彻底删除已存储的数据，请同时执行下方"方式二"。</p>
+
+    <div class="steps">
+      <strong>从 Facebook 侧撤销授权的步骤：</strong>
+      <ol>
+        <li>进入 Facebook「<strong>设置和隐私</strong> → <strong>设置</strong>」。</li>
+        <li>左侧菜单点击「<strong>应用和网站</strong>」，或直接访问：<a href="https://www.facebook.com/settings?tab=applications" target="_blank" rel="noopener">https://www.facebook.com/settings?tab=applications</a></li>
+        <li>在已授权的应用列表中找到 <strong>[APP_NAME]</strong>。</li>
+        <li>选中 [APP_NAME] 后，点击「<strong>移除</strong>」按钮。</li>
+      </ol>
+    </div>
+
+    <div class="success">
+      <strong>完成。</strong>[APP_NAME] 之后将无法继续访问你的 Facebook 资料，Facebook 也不会再向 [APP_NAME] 共享你的新数据。
+    </div>
+
+    <h2>方式二：删除 [APP_NAME] 账户及全部存储数据</h2>
+
+    <p>如需永久删除你的 [APP_NAME] 账户以及与之关联的所有数据（包括帐户信息、学习记录、上传的录音文件等），请在 [APP_NAME] App 内按下方步骤操作：</p>
+
+    <div class="steps">
+      <strong>App 内删除账户的步骤：</strong>
+      <ol>
+        <li>打开 [APP_NAME] App，确保已登录你要删除的账号。</li>
+        <li>点击底部 Tab 栏「<strong>我的</strong>」。</li>
+        <li>进入「<strong>设置</strong>」。</li>
+        <li>滚动到底部，点击「<strong>删除账户</strong>」。</li>
+        <li>按照提示完成身份验证（输入密码或使用第三方登录二次确认）。</li>
+        <li>点击「<strong>确认删除</strong>」。</li>
+      </ol>
+    </div>
+
+    <p>如果你已经卸载了 [APP_NAME]，请先从 App Store 或 Google Play 重新安装，使用原账号登录，然后按上述步骤删除。这是我们唯一接受的删除流程——以便安全地核验请求人身份。</p>
+
+    <h2>哪些数据会被删除</h2>
+
+    <ul>
+      <li>帐户基本信息（昵称、头像、邮箱、密码哈希）。</li>
+      <li>第三方登录绑定关系（Apple / Google / Facebook 用户 ID 与邮箱映射）。</li>
+      <li>学习数据（学习记录、答题记录、单词收藏、复习计划）。</li>
+      <li>用户上传内容（发音评测录音文件、用户头像）。</li>
+      <li>用户反馈与客服沟通记录。</li>
+      <li>设备绑定信息与登录会话。</li>
+    </ul>
+
+    <h2>处理时效</h2>
+
+    <p>删除请求将在 <strong>7 个工作日内</strong>处理完成。处理完成后，你的数据会从我们的生产数据库中移除，备份系统中的副本会在常规备份轮转周期内（一般不超过 30 天）一并清除。</p>
+
+    <p>少量数据可能会按法律法规要求继续保留（如必要的交易记录、脱敏的安全审计日志），保留期满后自动删除。</p>
+
+    <h2>需要帮助？</h2>
+
+    <p>如果你在按上述步骤操作时遇到问题（例如：无法登录原账号、App 内找不到删除入口等），请通过以下方式联系我们：</p>
+
+    <ul>
+      <li>邮箱：<a href="mailto:[CONTACT_EMAIL]">[CONTACT_EMAIL]</a></li>
+    </ul>
+
+    <p>关于 [APP_NAME] 如何处理你的数据，请查阅完整的<a href="./privacy.html">隐私政策</a>。</p>
+
+  </section>
+
+  <footer>
+    &copy; [YEAR] [APP_NAME]. All rights reserved.
+  </footer>
+</div>
+</body>
+</html>
